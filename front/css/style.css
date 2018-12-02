@@ -1,0 +1,147 @@
+header .brand {
+    float: left;
+}
+
+.img-logo{
+   margin-top: 5px;
+}
+
+.brand {
+    display: inline-block;
+}
+.brand_name {
+    display: inline-block;
+    overflow: hidden;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 62px;
+    color: #5ab7de;
+    vertical-align: bottom;
+}
+.brand_slogan {
+    display: inline-block;
+    padding-left: 0px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    vertical-align: bottom;
+}
+.brand a:hover {
+    color: inherit;
+}
+
+.fad-phone{
+
+    margin-top: 17px;
+    margin-bottom: 17px;
+    font-size: 25px;
+    color: #5ab7de;
+}
+
+.logo-info{
+    margin-top: 17px;
+    text-align: right;
+}
+.date_work{
+    margin-top: 17px;
+}
+.brand_slogann{
+    font-size: 17px;
+    color: #5ab7de;
+}
+.hr {
+    margin-top: 15px;
+    border-bottom: 3px solid #62bfe6;
+}
+section{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.abouth-block{
+    display: block;
+    height: 300px;
+    margin-top: 100px;
+}
+.content-abouth{
+    margin-top: 15px;
+}
+.h3{
+    padding-bottom: 10px;
+}
+.text-center {
+    text-align: center!important;
+}
+.bg-block-primary{
+    background: #f5f5f5;
+}
+.img-news{
+    width: 100%;
+    height: auto;
+    margin-bottom: 25px;
+}
+.well3 {
+    padding-top: 59px;
+    padding-bottom: 61px;
+}
+.bg-secondary {
+    background: #434547;
+}
+.icon-abouth{
+    float: left;
+}
+.text-abouth{
+    vertical-align: middle;
+    display: table-cell;
+    padding-left: 30px;
+}
+.text-abouth p{
+    margin-top: 20px;
+}
+.thumb img {
+    -webkit-filter: grayscale(0);
+    filter: none;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+.thumb img:hover {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+.thumb {
+    padding: 5px;
+}
+.box_aside {
+    float: left;
+}
+.box_cnt__no-flow {
+    overflow: hidden;
+    padding-left: 15px;
+}
+.block-act{
+    margin-bottom: 15px;
+}
+.p-gallery{
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+footer {
+    color: #888a8c;
+    background: #434547;
+}
+footer section + section .container {
+    border-top: 1px solid #888a8c;
+}
+footer .copyright {
+    padding-top: 21px;
+    padding-bottom: 55px;
+}
+footer .copyright a:hover {
+    text-decoration: underline;
+}
+@media (max-width: 767px) {
+    footer .copyright {
+        text-align: center;
+    }
+}
